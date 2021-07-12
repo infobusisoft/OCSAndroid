@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "153689443135",
+    "project_id": "xpresion-9703c",
+    "storage_bucket": "xpresion-9703c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:153689443135:android:7faa9b54c8478562b0e18a",
+        "android_client_info": {
+          "package_name": "com.xpresion.ocs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "153689443135-shvn4drbh0lpbksktinct3s0vs6am2hj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBaAhOM1lpcuTsjtw1DWfTqw90ytEIKV-s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "153689443135-shvn4drbh0lpbksktinct3s0vs6am2hj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:153689443135:android:cb5c554e612bbc9cb0e18a",
+        "android_client_info": {
+          "package_name": "com.xpresion.ocsdubai"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "153689443135-shvn4drbh0lpbksktinct3s0vs6am2hj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBaAhOM1lpcuTsjtw1DWfTqw90ytEIKV-s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "153689443135-shvn4drbh0lpbksktinct3s0vs6am2hj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
