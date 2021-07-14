@@ -87,7 +87,15 @@ public class MainActivity extends AppCompatActivity {
                     Manifest.permission.READ_EXTERNAL_STORAGE
             }, 1);
         };
-
+        mywebview.setDownloadListener(new DownloadListener() {
+            @Override
+            public void onDownloadStart(String url, String userAgent, String contentDisposition, String mimetype, long contentLength) {
+                Uri myUri = Uri.parse(url);
+                Intent superIntent = new Intent(Intent.ACTION_VIEW);
+                superIntent.setData(myUri);
+                startActivity(superIntent);
+            }
+        });
     }
 
 
