@@ -80,8 +80,8 @@ public class MainActivity extends AppCompatActivity {
         }
         mywebview= (WebView) findViewById(R.id.webview);
         mywebview.setWebViewClient(new CustomWebViewClient());
-        mywebview.loadUrl("https://office.busisoft.in/MobileApplication/CustomerRoute?path=Login");
-        // mywebview.loadUrl("https://demo.busisoft.in/MobileApplication/CustomerRoute?path=Home");
+        //mywebview.loadUrl("https://office.busisoft.in/MobileApplication/CustomerRoute?path=Login");
+        mywebview.loadUrl("https://demo.busisoft.in/MobileApplication/CustomerRoute?path=Home");
         mywebview.setWebChromeClient(new WebChromeClient() {
             @Override
             public void onGeolocationPermissionsShowPrompt(String origin, GeolocationPermissions.Callback callback) {
